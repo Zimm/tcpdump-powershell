@@ -39,8 +39,8 @@ Linux işletim sisteminde kullanılan tcp uygulamasının özelliklerini Windows
 
     şeklinde bir komut girilmelidir. 
     
-    Seviye;
-    Unrestricted, RemoteSigned, AllSigned, Restricted, Default, Bypass, Undefined
+    __Seviye__
+    Unrestricted | RemoteSigned | AllSigned | Restricted | Default | Bypass | Undefined
     olabilir. Programı çalıştırabilmek için RemoteSigned veya Unrestricted olmalıdır.
 
     Powershell bu programın çalıştırılmasına karşı çıkabilir fakat bu çalıştırma politikası düzgün ayarlandıysa
