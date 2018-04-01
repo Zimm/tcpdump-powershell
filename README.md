@@ -3,6 +3,7 @@
 Linux işletim sisteminde kullanılan tcp uygulamasının özelliklerini Windows platformunun powershell konsolunda taklit eder.
 
 **Parametreler**
+
     TraceFilePath
         Programın üreteceği .etl uzantılı dosyanın kaydedileceği dizin.
 
@@ -23,9 +24,11 @@ Linux işletim sisteminde kullanılan tcp uygulamasının özelliklerini Windows
 
     
 **Çıktı**
+
     Aksi belirtilmezse etl uzantılı bir analiz dosyası üretir.
 
 **Kurulum ve Çalıştırma**
+
     Kuruluma ihtiyaç yoktur. ps1 uzantılı dosyanın powershell bulunan bir Windows makinede çalıştırılabilir.
     İçeriği nedeniyle yüksek yetkiye ihtiyaç duyar.
 
