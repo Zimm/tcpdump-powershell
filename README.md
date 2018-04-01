@@ -27,6 +27,10 @@ Linux işletim sisteminde kullanılan tcp uygulamasının özelliklerini Windows
 
     Aksi belirtilmezse etl uzantılı bir analiz dosyası üretir.
 
+**Örnek Kullanım**
+
+    'PacketCapture.ps1 -TraceFilePath C:\Users\user\path\to\file -ListenTime 60'
+
 **Kurulum ve Çalıştırma**
 
     Kuruluma ihtiyaç yoktur. ps1 uzantılı dosyanın powershell bulunan bir Windows makinede çalıştırılabilir.
@@ -45,3 +49,4 @@ Linux işletim sisteminde kullanılan tcp uygulamasının özelliklerini Windows
 
     Powershell bu programın çalıştırılmasına karşı çıkabilir fakat bu çalıştırma politikası düzgün ayarlandıysa
     sadece uyarı şeklinde olacaktır, sadece izin verin.
+
