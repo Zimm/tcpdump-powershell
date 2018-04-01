@@ -39,7 +39,7 @@ Linux işletim sisteminde kullanılan tcp uygulamasının özelliklerini Windows
 
     şeklinde bir komut girilmelidir. 
     
-    *Seviye*
+    Seviye
     Unrestricted | RemoteSigned | AllSigned | Restricted | Default | Bypass | Undefined
     olabilir. Programı çalıştırabilmek için RemoteSigned veya Unrestricted olmalıdır.
 
