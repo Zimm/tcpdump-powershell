@@ -2,7 +2,7 @@
 
 Linux işletim sisteminde kullanılan tcp uygulamasının özelliklerini Windows platformunun powershell konsolunda taklit eder.
 
-Parametreler
+**Parametreler**
     TraceFilePath
         Programın üreteceği .etl uzantılı dosyanın kaydedileceği dizin.
 
@@ -22,19 +22,21 @@ Parametreler
         Verilen IP adresine yönelik trafiği analiz eder. Opsiyoneldir, standart değer tüm ip aralığı.
 
     
-Çıktı
+**Çıktı**
     Aksi belirtilmezse etl uzantılı bir analiz dosyası üretir.
 
-Kurulum ve Çalıştırma
+**Kurulum ve Çalıştırma**
     Kuruluma ihtiyaç yoktur. ps1 uzantılı dosyanın powershell bulunan bir Windows makinede çalıştırılabilir.
     İçeriği nedeniyle yüksek yetkiye ihtiyaç duyar.
 
     Program önceden imzalanmıştır fakat bazı makinelerin çalıştırma politikaları sebebiyle sorun çıkarabilir.
     Bu sorunu çözmek için powershell üzerinden;
 
-    Set-ExecutionPolicy <seviye>
+    'Set-ExecutionPolicy <seviye>'
 
-    şeklinde bir komut girilmelidir. Seviye;
+    şeklinde bir komut girilmelidir. 
+    
+    Seviye;
     Unrestricted, RemoteSigned, AllSigned, Restricted, Default, Bypass, Undefined
     olabilir. Programı çalıştırabilmek için RemoteSigned veya Unrestricted olmalıdır.
 
